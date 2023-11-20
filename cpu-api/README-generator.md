@@ -135,7 +135,7 @@ int main(int argc, char *argv[]) {
 
 This command creates the default process ("a"), which then creates "b"
 which sleeps for 1 but doesn't do anything else; in the meanwhile, "a"
-then waits for "b" to complete.
+then waits for "b" to complete.y
 
 More complex examples can be created. For example:
 * `-A "fork b,1 {} fork c,2 {} wait wait"` - process "a" creates two
